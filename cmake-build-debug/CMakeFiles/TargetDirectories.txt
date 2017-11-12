@@ -1,0 +1,3 @@
+C:/Users/okock/CLionProjects/progtest2/cmake-build-debug/CMakeFiles/progtes2.dir
+C:/Users/okock/CLionProjects/progtest2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/okock/CLionProjects/progtest2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
