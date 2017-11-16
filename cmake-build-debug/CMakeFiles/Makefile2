@@ -53,45 +53,45 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\okock\CLionProjects\progtest2
+CMAKE_SOURCE_DIR = E:\Github\progtest2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\okock\CLionProjects\progtest2\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Github\progtest2\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/progtes2.dir
+# Target rules for target CMakeFiles/progtest2.dir
 
 # All Build rule for target.
-CMakeFiles/progtes2.dir/all:
-	$(MAKE) -f CMakeFiles\progtes2.dir\build.make CMakeFiles/progtes2.dir/depend
-	$(MAKE) -f CMakeFiles\progtes2.dir\build.make CMakeFiles/progtes2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\okock\CLionProjects\progtest2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target progtes2"
-.PHONY : CMakeFiles/progtes2.dir/all
+CMakeFiles/progtest2.dir/all:
+	$(MAKE) -f CMakeFiles\progtest2.dir\build.make CMakeFiles/progtest2.dir/depend
+	$(MAKE) -f CMakeFiles\progtest2.dir\build.make CMakeFiles/progtest2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Github\progtest2\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target progtest2"
+.PHONY : CMakeFiles/progtest2.dir/all
 
 # Include target in all.
-all: CMakeFiles/progtes2.dir/all
+all: CMakeFiles/progtest2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/progtes2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\okock\CLionProjects\progtest2\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/progtes2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\okock\CLionProjects\progtest2\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/progtes2.dir/rule
+CMakeFiles/progtest2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Github\progtest2\cmake-build-debug\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/progtest2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Github\progtest2\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/progtest2.dir/rule
 
 # Convenience name for target.
-progtes2: CMakeFiles/progtes2.dir/rule
+progtest2: CMakeFiles/progtest2.dir/rule
 
-.PHONY : progtes2
-
-# clean rule for target.
-CMakeFiles/progtes2.dir/clean:
-	$(MAKE) -f CMakeFiles\progtes2.dir\build.make CMakeFiles/progtes2.dir/clean
-.PHONY : CMakeFiles/progtes2.dir/clean
+.PHONY : progtest2
 
 # clean rule for target.
-clean: CMakeFiles/progtes2.dir/clean
+CMakeFiles/progtest2.dir/clean:
+	$(MAKE) -f CMakeFiles\progtest2.dir\build.make CMakeFiles/progtest2.dir/clean
+.PHONY : CMakeFiles/progtest2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/progtest2.dir/clean
 
 .PHONY : clean
 

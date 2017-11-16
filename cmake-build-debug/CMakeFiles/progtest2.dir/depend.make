@@ -3,3 +3,5 @@
 
 CMakeFiles/progtest2.dir/main.cpp.obj: ../main.cpp
 
+CMakeFiles/progtest2.dir/median.cpp.obj: ../median.cpp
+

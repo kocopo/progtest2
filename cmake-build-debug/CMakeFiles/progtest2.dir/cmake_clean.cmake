@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/progtest2.dir/main.cpp.obj"
+  "CMakeFiles/progtest2.dir/median.cpp.obj"
   "progtest2.pdb"
   "progtest2.exe"
   "progtest2.exe.manifest"

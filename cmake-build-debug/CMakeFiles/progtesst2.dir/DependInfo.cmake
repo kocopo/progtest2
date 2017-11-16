@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Github/progtest2/main.cpp" "E:/Github/progtest2/cmake-build-debug/CMakeFiles/progtest2.dir/main.cpp.obj"
-  "E:/Github/progtest2/median.cpp" "E:/Github/progtest2/cmake-build-debug/CMakeFiles/progtest2.dir/median.cpp.obj"
+  "E:/Github/progtest2/main.cpp" "E:/Github/progtest2/cmake-build-debug/CMakeFiles/progtesst2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

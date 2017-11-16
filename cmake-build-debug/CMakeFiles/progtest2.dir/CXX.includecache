@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/okock/CLionProjects/progtest2/main.cpp
+E:/Github/progtest2/main.cpp
+
+E:/Github/progtest2/median.cpp
 cstdio
 -
-cstdlib
+cmath
 -
 

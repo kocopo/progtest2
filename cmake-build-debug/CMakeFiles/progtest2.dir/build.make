@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\okock\CLionProjects\progtest2
+CMAKE_SOURCE_DIR = E:\Github\progtest2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\okock\CLionProjects\progtest2\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Github\progtest2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/progtest2.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/progtest2.dir/flags.make
 
 CMakeFiles/progtest2.dir/main.cpp.obj: CMakeFiles/progtest2.dir/flags.make
 CMakeFiles/progtest2.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\okock\CLionProjects\progtest2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/progtest2.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\progtest2.dir\main.cpp.obj -c C:\Users\okock\CLionProjects\progtest2\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Github\progtest2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/progtest2.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\progtest2.dir\main.cpp.obj -c E:\Github\progtest2\main.cpp
 
 CMakeFiles/progtest2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/progtest2.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\okock\CLionProjects\progtest2\main.cpp > CMakeFiles\progtest2.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Github\progtest2\main.cpp > CMakeFiles\progtest2.dir\main.cpp.i
 
 CMakeFiles/progtest2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/progtest2.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\okock\CLionProjects\progtest2\main.cpp -o CMakeFiles\progtest2.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Github\progtest2\main.cpp -o CMakeFiles\progtest2.dir\main.cpp.s
 
 CMakeFiles/progtest2.dir/main.cpp.obj.requires:
 
@@ -80,19 +80,45 @@ CMakeFiles/progtest2.dir/main.cpp.obj.provides: CMakeFiles/progtest2.dir/main.cp
 CMakeFiles/progtest2.dir/main.cpp.obj.provides.build: CMakeFiles/progtest2.dir/main.cpp.obj
 
 
+CMakeFiles/progtest2.dir/median.cpp.obj: CMakeFiles/progtest2.dir/flags.make
+CMakeFiles/progtest2.dir/median.cpp.obj: ../median.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Github\progtest2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/progtest2.dir/median.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\progtest2.dir\median.cpp.obj -c E:\Github\progtest2\median.cpp
+
+CMakeFiles/progtest2.dir/median.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/progtest2.dir/median.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Github\progtest2\median.cpp > CMakeFiles\progtest2.dir\median.cpp.i
+
+CMakeFiles/progtest2.dir/median.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/progtest2.dir/median.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Github\progtest2\median.cpp -o CMakeFiles\progtest2.dir\median.cpp.s
+
+CMakeFiles/progtest2.dir/median.cpp.obj.requires:
+
+.PHONY : CMakeFiles/progtest2.dir/median.cpp.obj.requires
+
+CMakeFiles/progtest2.dir/median.cpp.obj.provides: CMakeFiles/progtest2.dir/median.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\progtest2.dir\build.make CMakeFiles/progtest2.dir/median.cpp.obj.provides.build
+.PHONY : CMakeFiles/progtest2.dir/median.cpp.obj.provides
+
+CMakeFiles/progtest2.dir/median.cpp.obj.provides.build: CMakeFiles/progtest2.dir/median.cpp.obj
+
+
 # Object files for target progtest2
 progtest2_OBJECTS = \
-"CMakeFiles/progtest2.dir/main.cpp.obj"
+"CMakeFiles/progtest2.dir/main.cpp.obj" \
+"CMakeFiles/progtest2.dir/median.cpp.obj"
 
 # External object files for target progtest2
 progtest2_EXTERNAL_OBJECTS =
 
 progtest2.exe: CMakeFiles/progtest2.dir/main.cpp.obj
+progtest2.exe: CMakeFiles/progtest2.dir/median.cpp.obj
 progtest2.exe: CMakeFiles/progtest2.dir/build.make
 progtest2.exe: CMakeFiles/progtest2.dir/linklibs.rsp
 progtest2.exe: CMakeFiles/progtest2.dir/objects1.rsp
 progtest2.exe: CMakeFiles/progtest2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\okock\CLionProjects\progtest2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable progtest2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Github\progtest2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable progtest2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\progtest2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -101,6 +127,7 @@ CMakeFiles/progtest2.dir/build: progtest2.exe
 .PHONY : CMakeFiles/progtest2.dir/build
 
 CMakeFiles/progtest2.dir/requires: CMakeFiles/progtest2.dir/main.cpp.obj.requires
+CMakeFiles/progtest2.dir/requires: CMakeFiles/progtest2.dir/median.cpp.obj.requires
 
 .PHONY : CMakeFiles/progtest2.dir/requires
 
@@ -109,6 +136,6 @@ CMakeFiles/progtest2.dir/clean:
 .PHONY : CMakeFiles/progtest2.dir/clean
 
 CMakeFiles/progtest2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\okock\CLionProjects\progtest2 C:\Users\okock\CLionProjects\progtest2 C:\Users\okock\CLionProjects\progtest2\cmake-build-debug C:\Users\okock\CLionProjects\progtest2\cmake-build-debug C:\Users\okock\CLionProjects\progtest2\cmake-build-debug\CMakeFiles\progtest2.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Github\progtest2 E:\Github\progtest2 E:\Github\progtest2\cmake-build-debug E:\Github\progtest2\cmake-build-debug E:\Github\progtest2\cmake-build-debug\CMakeFiles\progtest2.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/progtest2.dir/depend
 
